@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+
+  a(href="/new") Write your own message!
+
+  each message in messages 
+    div(class='message')
+      h2= message.user 
+      p= message.text
+      p= format(message.added)

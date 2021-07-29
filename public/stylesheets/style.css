@@ -1,0 +1,41 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  background-image: linear-gradient(rgba(174, 189, 223, 0.5), rgba(127, 127, 228, 0.712));
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 10px auto;
+  width:max-content;
+}
+
+a {
+  display: block;
+  margin: 10px auto;
+  width: max-content;
+}
+
+.message {
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid gray;
+  margin: 10px
+}
+
+
+form label {
+  display: block;
+  font-size: large;
+  text-align: center;
+}
+
+form input {
+  display: block;
+  margin: auto;
+}

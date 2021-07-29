@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+
+  a(href="/") Back to Home
+
+  form(action="/new", method="post")
+    label(for="message") Message
+    input(type="text", name="message")
+    br
+    label(for="user") Username 
+    input(type="text", name="user")
+    br
+    input(type="submit", value="submit")
