@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const format = require('date-fns/formatDistanceToNow')
+const format = require('date-fns/formatDistanceToNow');
 
 const router = Router();
 
@@ -21,7 +21,7 @@ router.get('/', (req, res) => {
   res.render('index', {
     title: 'Mini Messageboard',
     messages,
-    format: require('date-fns/formatDistanceToNow')
+    format
   });
 });
 
